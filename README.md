@@ -95,7 +95,6 @@ console.log(transformedAutobots);
  ]
 */
 ```
-
 We're using `Object.assign()` here to defensively copy the object and change its values. If we didn't, the objects in the original array would get modified too. Defensive copying is important to keep in mind — modifying values all over our code is often the biggest source of bugs.
 
 ## Seeing the light
